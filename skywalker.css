@@ -59,7 +59,7 @@ width: 112px;
 body *{
   
   font-family: "Inter", sans-serif;
- color: var(--text-color);
+ color: white;
  text-align: center;
  
 
@@ -96,6 +96,7 @@ body *{
   transform: translateY(-50%);
   
   animation: slide-back .2s;
+  
   
 }
 
@@ -226,11 +227,11 @@ footer {
 @keyframes slide-back {
 
   from {
-left: 50%;
+right: 50%;
   }
 
 to {
-  left: 0;
+  right: 100px;
 } 
  
   
